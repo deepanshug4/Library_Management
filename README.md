@@ -12,6 +12,6 @@ In This code I have provided all the functionalities needed to make a library ma
 <li> Return the book </li>
 <li> Get a list of all the books in the library</li>
 </ol><br>
-# How this code helps us?
+# Usage
 <br>
 Suppose you have to make your online library in which you people lend some book and return book then this can help you to do it.<br>
