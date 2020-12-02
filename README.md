@@ -3,6 +3,8 @@ A simple Library Managment system made in python<br>
 # What I do in this Code?
 In This code I have provided all the functionalities needed to make a library management system.
 <br>
+# Usage
+Suppose you have to make your online library in which you people lend some book and return book then this can help you to do it.<br>
 ## Functionalities:
 <ol>
 <li> Give a name to the library </li>
@@ -12,6 +14,3 @@ In This code I have provided all the functionalities needed to make a library ma
 <li> Return the book </li>
 <li> Get a list of all the books in the library</li>
 </ol><br>
-# Usage
-<br>
-Suppose you have to make your online library in which you people lend some book and return book then this can help you to do it.<br>
