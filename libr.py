@@ -16,12 +16,15 @@ class Library:
 
     def borrow(self, book):
         """This function is used to get a book issued"""
-        if self.dic_books[book] == "None":
-            num = int(input("Enter the customer number"))
-            self.dic_books[book] = num
-            print(f"{book} issued to {num}")
+        if self.dic_books.keys() == book:
+            if self.dic_books[book] == "None":
+                num = int(input("Enter the customer number"))
+                self.dic_books[book] = num
+            else:
+                print(f"{book} is already issued by {self.dic_books[book]}")
         else:
-            print(f"{book} is already issued by {self.dic_books[book]}")
+            print("The book is not in library.")
+            print("Try viewing the books available.")
 
     def more(self, li):
         """This function is used to add a book into the library"""
